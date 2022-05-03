@@ -1,0 +1,37 @@
+Function add(a As Integer, B As Integer) As Integer
+add = a + B
+End Function
+
+Function subt(a As Integer, B As Integer) As Integer
+subt = a - B
+End Function
+
+Function mul(a As Integer, B As Integer) As Integer
+mul = a*B
+End Function
+
+Function divide(a As Integer, B As Integer) As Integer
+divide = a/B
+End Function
+
+
+//form file
+
+Dim obj As New B.bb
+Dim a as Integer
+Dim B as Integer
+Dim c As Integer
+
+Private Sub Command1_Click()
+a = Val(Text1.Text)
+B = Val(Text2.Text)
+c = obj,Add(a,B)
+Text3.Text = c
+End Sub
+
+Private Sub Command2_Click()
+a = Val(Text1.Text)
+B = Val(Text2.Text)
+c = obj.subt(a,B)
+Text3.Text = c
+End Sub
