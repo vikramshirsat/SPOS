@@ -1,4 +1,0 @@
-EVAL A B C
-ADD1 K J
-EVAL A B C
-ADD1 K J
